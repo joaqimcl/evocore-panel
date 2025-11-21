@@ -1,11 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'standalone', // CRUCIAL PARA DOCKER
-  
-  eslint: {
-    ignoreDuringBuilds: true, // Evita que errores de estilo detengan el deploy
-  },
+import type { NextConfig } from "next";
 
+const nextConfig: NextConfig = {
+  output: 'standalone',
+  
+  // Eliminamos el bloque 'eslint' que causaba la advertencia
+  
   images: {
     remotePatterns: [
       {
