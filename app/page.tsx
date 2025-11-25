@@ -2,6 +2,6 @@
 import { redirect } from 'next/navigation'
 
 export default function Home() {
-  // En cuanto alguien entre aquí, lo mandamos al Login
+  // Redirige automáticamente al login
   redirect('/login')
 }
