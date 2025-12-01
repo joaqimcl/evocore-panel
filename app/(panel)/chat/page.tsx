@@ -69,7 +69,7 @@ export default function ChatPage() {
               <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
                 <Smartphone className="h-4 w-4" />
               </div>
-              <span className="font-semibold">Atención Merced</span>
+              <span className="font-semibold">Evocore</span>
             </div>
             <svg className="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
           </button>

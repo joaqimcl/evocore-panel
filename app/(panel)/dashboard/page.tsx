@@ -10,7 +10,7 @@ export default function DashboardPage() {
       {/* Bienvenida */}
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-gray-900">Resumen General</h1>
-        <p className="text-gray-500">Bienvenido de vuelta, Bar EvoCore.</p>
+        <p className="text-gray-500">Bienvenido de vuelta, EvoCore.</p>
       </div>
 
       {/* Tarjetas de Métricas (KPIs) */}
